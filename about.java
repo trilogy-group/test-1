@@ -9,6 +9,7 @@ public class about extends HttpServlet
 	 	rs.setContentType("text/html");
 		PrintWriter out=rs.getWriter();
 		out.println("<html>");
+		out.println("<head><title>--------------</title></head>");
 		out.println("<head><title>cyber credit card system</title></head>");
 		out.println("<body alink=#000000 vlink=maroon bgcolor=#ded7be>");
 		out.println("<a href='http://localhost:8080/servlet/gloss_of_terms' target='second'>Guide</a>");
