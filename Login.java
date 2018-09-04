@@ -43,7 +43,24 @@ public class Login extends HttpServlet
  			hs.putValue("name",s3);
 			s4=request.getParameter("pass");
 			ResultSet r=st.executeQuery("select name,password from signup");
-			 
+
+			s3=request.getParameter("cname");
+ 			hs.putValue("name",s3);
+			s4=request.getParameter("pass");
+			ResultSet r=st.executeQuery("select name,password from signup");
+
+			s3=request.getParameter("cname");
+ 			hs.putValue("name",s3);
+			s4=request.getParameter("pass");
+			ResultSet r=st.executeQuery("select name,password from signup");
+
+
+			s3=request.getParameter("cname");
+ 			hs.putValue("name",s3);
+			s4=request.getParameter("pass");
+			ResultSet r=st.executeQuery("select name,password from signup");
+
+
 			HttpSession hs=request.getSession(true);
 			s3=request.getParameter("cname");
  			hs.putValue("name",s3);
@@ -79,4 +96,7 @@ public class Login extends HttpServlet
 			pw.println(e);
 		}
 	}
+	
+	
+	
 }
