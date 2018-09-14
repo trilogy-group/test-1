@@ -11,6 +11,7 @@ public class Login1 extends HttpServlet
 		out.println("<html><head><title>Login Form</title>");
 		out.println("<SCRIPT LANGUAGE='JavaScript'>");
 		out.println("<!--");
+		out.println("<!--");
 		out.println("function validate()");
 		out.println("{");
 		out.println("var name,pass");
